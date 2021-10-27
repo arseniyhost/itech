@@ -1,0 +1,15 @@
+.wrapper button {
+    padding: 7px;
+    text-transform: uppercase;
+    background-color: #B80C09;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.wrapper input {
+    background: #FBFBFF;
+    padding: 7px;
+    border: 1px solid #01BAEF;
+    color: #040F16;
+}

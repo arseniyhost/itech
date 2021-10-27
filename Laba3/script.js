@@ -11,7 +11,7 @@ const columnInput = document.createElement('input');
 columnInput.placeholder = "Колличество строк";
 
 const btn = document.createElement('button');
-btn.innerHTML = "click"
+btn.innerHTML = "click";
 
 const onClick = () => {
     if (rowInput.value && columnInput.value) {
@@ -33,6 +33,7 @@ const createTable = (row, column) => {
 
     const table = document.createElement('table');
     table.classList.add('table-list');
+    table.style.fontFamily = "Robotom, sans-serif"
 
     const trHead = document.createElement('tr');
     const tableBody = document.createElement('tbody');
