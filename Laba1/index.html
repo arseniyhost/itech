@@ -12,10 +12,26 @@
     table {
         border: 1px solid #000;
     }
+
+    /* .spisok {
+        display: none;
+    } */
+
+    ul  ul {
+        display: none;
+    }
+
+    .list {
+        border: 1px solid #ccc;
+    }
+
+    .main-list:hover .list {
+        display: block;
+    }
 </style>
 </head>
 <body>
-    <h1>Лабораторная работа №1</h1>
+    <h1 id="main">Лабораторная работа №1</h1>
 
     <div style="width: 400px">
         <h2>Задание 1</h2>
@@ -28,20 +44,20 @@
     <div>
         <h2>Задание 2</h2>
         <ul>
-            <li>Бригада №1
-                <ul>
+            <li class="main-list">Бригада №1
+                <ul class="list">
                     <li>Пилипнко Арсений</li>
                     <li>Кулиш Алена</li>
                     <li>Мирошниченко Алина</li>
                 </ul>
             </li>
-            <li>Бригада №2
+            <!-- <li>Бригада №2
                 <ul>
                     <li>Вася Пупукин</li>
                     <li>Владимир Владимирович</li>
                     <li>Александр Пушкин</li>
                 </ul>
-            </li>
+            </li> -->
         </ul>
     </div>
     <div>
@@ -86,9 +102,9 @@
             <input type="text" placeholder="Ваш возраст">
         </form>
     </div>
-    <div>
+    <div style="margin-top: 200px">
         <h2>Задание №5</h2>
-        <a href="https://github.com/arseniyhost">Ссылка на самый лучший ресурc!</a>
+        <a href="#main">Ссылка на самый лучший ресурc!</a>
     </div>
 </body>
 
